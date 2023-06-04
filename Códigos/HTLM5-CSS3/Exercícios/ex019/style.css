@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    id é para ser usado apenas em uma tag, não sendo correto utilizar para mais do que isso
+
+    em HTML é class = em CSS é .
+    class pode ser usado em múltiplas tags. quando o id já tiver sido usado em alguma tag e for necessário criar seletores para outras, ao invés de usar id deve ser usado class
+*/
+
+body{
+    background-color: rgb(138, 255, 138);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(31, 150, 31);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(31, 150, 31);
+    color: white;
+}
+
+h2{
+    color: rgb(6, 66, 6);
+}
+
+.basico{
+    color: rgb(6, 66, 6);
+}
+
+.intermediario{
+    color: rgb(62, 66, 6);
+}
+
+.avancado{
+    color: rgb(66, 6, 6);
+}
+
+.destaque{
+    background-color: #c2c265bd;
+}

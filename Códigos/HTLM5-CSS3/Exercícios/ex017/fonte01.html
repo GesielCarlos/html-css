@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*tamanhos de fontes:
+            Medidas Absolutas: cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+            Medidas Relativas: em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            px e em são as medidas recomendadas a serem usadas
+            */
+            font-size: 1em;
+        }
+
+        h1{
+            /*
+            shorthand font
+            font: font-style -> font-weight -> font-size -> font-family
+
+            Essa shorthand (mãozinha) serve para simplificar esse código abaixo:
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus obcaecati nemo neque eveniet officia magni, sint temporibus commodi quae! Recusandae rem mollitia explicabo. Sit a deserunt iste error ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus obcaecati nemo neque eveniet officia magni, sint temporibus commodi quae! Recusandae rem mollitia explicabo. Sit a deserunt iste error ex.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam aliquid maiores possimus praesentium quasi, veniam exercitationem non quod obcaecati ad dolorum magni suscipit molestias ut? Tempore qui itaque voluptas numquam.</p>
+    
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae incidunt magni corporis ipsa! Inventore laborum reprehenderit numquam? Veniam aut, dolorum magni veritatis amet unde iusto. Dolore similique cupiditate rem!</p>
+</body>
+</html>
